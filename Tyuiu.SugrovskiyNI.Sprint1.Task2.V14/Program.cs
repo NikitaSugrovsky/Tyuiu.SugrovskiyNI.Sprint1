@@ -38,7 +38,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint1.Task2.V10
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
-
+    
             Console.WriteLine("Расстояние в дюймах x =" + ds.Calculate(a, b));
 
             Console.ReadLine();
