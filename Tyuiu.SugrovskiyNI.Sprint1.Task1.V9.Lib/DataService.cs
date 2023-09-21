@@ -13,7 +13,9 @@ namespace Tyuiu.SugrovskiyNI.Sprint1.Task1.V9.Lib
     {
         public double Calculate(double x, double y)
         {
+            
             return (1 + 3 * x) / (4 * y);
+
         }
     }
 }
