@@ -15,11 +15,6 @@ namespace Tyuiu.SugrovskiyNI.Sprint1.Task2.V10.Lib
             return a * b;
 
         }
-
-        public string Calculate(int a)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
 

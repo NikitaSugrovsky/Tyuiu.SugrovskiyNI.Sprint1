@@ -11,7 +11,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint1.Task2.V10.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double a = 1; // Пример температуры в Кельвинах
+            double a = 1; 
             double b = 39.37;
             var res = ds.Calculate(a, b);
             Assert.AreEqual(39.37, res);
