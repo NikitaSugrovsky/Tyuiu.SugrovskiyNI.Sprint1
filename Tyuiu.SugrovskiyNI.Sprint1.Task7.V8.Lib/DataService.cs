@@ -12,6 +12,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint1.Task7.V8.Lib
         public double Calculate(double x, double y)
         {
             double res = x * Math.Log(x) + y / Math.Cos(x) - x / 3.0;
+            res = Math.Round(res, 3);
             return res;
         }
     }
